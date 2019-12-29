@@ -1,43 +1,56 @@
-#include <sprite_animation.h>
+#include <support/sprite_animation.h>
 #include <level.h>
 #include "character.h"
 
+static unsigned int ANIMATION_WALKING;
+
+void load_animation_manager(animation_manager* manager) {
+	sprite_animation* idle1 = asset_get(P("./tiles/character_walk.32x64.pngsprite"));
+	idle1->frame_time = 2.f / 24.f;
+
+	add_idle_animation(manager, idle1);
+
+
+	sprite_animation* walk = asset_get(P("./tiles/character_walk.32x64.pngsprite"));
+	walk->frame_time = 0.5f;
+
+	ANIMATION_WALKING = add_animation(manager, walk);
+}
+
 character* character_new() {
-  character* c = malloc(sizeof(character));
-  c->position = vec2_zero();
-  c->velocity = vec2_zero();
-  c->sprite_animation_walk = asset_get(P("./tiles/character_walk.32x64.pngsprite"));
-  c->facing_left = false;
-  c->covering = false;
-	c->sprite_animation_walk->frame_time = 20.f / 60.f;
-	c->walk_timer = sprite_animation_duration(c->sprite_animation_walk);
+	character* c = malloc(sizeof(character));
+	c->position = vec2_zero();
+	c->velocity = vec2_zero();
+	c->animation_manager = animation_manager_new();
+	c->facing_left = false;
+	c->covering = false;
 
+	load_animation_manager(c->animation_manager);
 
-  return c;
+	return c;
 }
 
 void character_delete(character* c) {
-  free(c);
+	animation_manager_delete(c->animation_manager);
+	free(c);
 }
 
 void character_update(character* c) {
-  c->velocity.x = clamp(c->velocity.x, -7.0, 7.0);
-  c->position = vec2_add(c->position, c->velocity);
-  
-  if (c->walk_timer < sprite_animation_duration(c->sprite_animation_walk)) {
-    c->walk_timer += frame_time();
-  }
+	c->velocity.x = clamp(c->velocity.x, -7.0, 7.0);
+	c->position = vec2_add(c->position, c->velocity);
+
+	update_time(c->animation_manager, frame_time());
 }
 
 void character_walk_left(character* c) {
 	c->velocity.x = -1;
-	c->walk_timer = 0;
+	start_animation(c->animation_manager, ANIMATION_WALKING, true);
 	c->facing_left = true;
 }
 
 void character_walk_right(character* c) {
 	c->velocity.x = 1;
-	c->walk_timer = 0;
+	start_animation(c->animation_manager, ANIMATION_WALKING, true);
 	c->facing_left = false;
 }
 
@@ -70,12 +83,10 @@ void character_render(character* c, vec2 camera_position) {
 
 	glEnable(GL_TEXTURE_2D);
 	texture* character_tex;
-	if(c->walk_timer <  sprite_animation_duration(c->sprite_animation_walk)) {
-		character_tex = sprite_animation_sample(c->sprite_animation_walk, c->walk_timer);
-	} else if (c->covering) {
-		character_tex = asset_get(P("./tiles/character_covering.dds"));
+	if (c->covering) {
+		character_tex = asset_get(P("./tiles/character_cover.png"));
 	} else {
-		character_tex = asset_get(P("./tiles/character.png"));
+		character_tex = get_current(c->animation_manager, true);
 	}
 	glBindTexture(GL_TEXTURE_2D, texture_handle(character_tex));
 

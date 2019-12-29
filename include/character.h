@@ -3,16 +3,16 @@
 
 #include <corange.h>
 #include "support/sprite_animation.h"
+#include "animation_manager.h"
 
 #define CHARACTER_VELOCITY 5
 
 typedef struct {
-  vec2 velocity;
-  vec2 position;
-  sprite_animation* sprite_animation_walk;
-  float walk_timer;
-  bool facing_left;
-  bool covering;
+	vec2 velocity;
+	vec2 position;
+	animation_manager* animation_manager;
+	bool facing_left;
+	bool covering;
 } character;
 
 character* character_new();

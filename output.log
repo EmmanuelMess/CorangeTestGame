@@ -100,4 +100,98 @@
 [DEBUG] (src/centity.c:entity_new_type_id:70) Creating Entity coin_id_42 (coin)
 [DEBUG] (src/centity.c:entity_new_type_id:70) Creating Entity coin_id_43 (coin)
 [DEBUG] (src/centity.c:entity_new_type_id:70) Creating Entity coin_id_44 (coin)
-[ERROR] (src/corange.c:corange_signal:9) Segmentation fault
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_3 (coin)
+[DEBUG] (src/casset.c:file_load:282) Loading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/shaders/ui.mat'
+[DEBUG] (src/casset.c:file_load:282) Loading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/shaders/ui.vs'
+[DEBUG] (src/casset.c:file_load:282) Loading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/shaders/ui.fs'
+[DEBUG] (src/casset.c:file_load:282) Loading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/textures/random.dds'
+[DEBUG] (src/cui.c:ui_elem_delete:275) Deleting UI Element framerate (ui_button)
+[DEBUG] (src/cui.c:ui_elem_delete:275) Deleting UI Element score (ui_button)
+[DEBUG] (src/cui.c:ui_elem_delete:275) Deleting UI Element time (ui_button)
+[DEBUG] (src/cui.c:ui_elem_delete:275) Deleting UI Element victory (ui_button)
+[DEBUG] (src/cui.c:ui_elem_delete:275) Deleting UI Element new_game (ui_button)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity main_char (character)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_0 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_1 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_2 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_4 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_5 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_6 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_7 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_8 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_9 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_10 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_11 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_12 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_13 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_14 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_15 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_16 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_17 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_18 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_19 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_20 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_21 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_22 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_23 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_24 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_25 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_26 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_27 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_28 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_29 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_30 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_31 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_32 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_33 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_34 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_35 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_36 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_37 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_38 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_39 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_40 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_41 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_42 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_43 (coin)
+[DEBUG] (src/centity.c:entity_delete:163) Deleting Entity coin_id_44 (coin)
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/character.png'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/fonts/console_font.fnt'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_dirt_rock.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_junc_right.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_surface.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_house_top_right.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_turn_left.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_grass_rock1.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_house_top_left.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_turn_right.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_side.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_bot_right.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_junc_left.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/fonts/console_font_0.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_house_bot_left.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/coin.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/backgrounds/bluesky.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/shaders/ui.fs'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/shaders/ui.mat'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_sky.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/ui/pale_orange.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/levels/demo.level'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/character_cover.png'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/character_walk.32x64.pngsprite'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_top_left.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/sounds/coin.wav'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_top_right.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_house_bot_right.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_grass_rock2.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_top.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_grass_tree.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/chraracter_idle.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_bot_left.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_tree_topest.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/textures/random.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_dirt.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_grass.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/tiles/tile_dirt_overhang.dds'
+[DEBUG] (src/casset.c:delete_bucket_list:215) Unloading: '/home/emmanuel/Documentos/ProjectsTemp/C/TestGame/assets_core/shaders/ui.vs'
