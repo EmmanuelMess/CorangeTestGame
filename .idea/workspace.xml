@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="TestGame" targetName="TestGame" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8d85724-64ab-4a70-a468-d2fd16047db1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/libspng" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1V1iZ3pL4xAtabMSKG3EAXSqc5j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitHub/Corange" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include/support" />
+      <recent name="$PROJECT_DIR$/src/support" />
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestGame" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TestGame" TARGET_NAME="TestGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TestGame" RUN_TARGET_NAME="TestGame">
+      <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_make" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="134" width="524" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577320472521">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="413" y="134" width="524" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.768@0.0.1360.768" timestamp="1577320472521" />
+    <state x="438" y="91" key="#xdebugger.evaluate" timestamp="1577207959034">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="438" y="91" key="#xdebugger.evaluate/0.0.1360.768@0.0.1360.768" timestamp="1577207959033" />
+    <state width="1360" height="123" key="GridCell.Tab.0.bottom" timestamp="1577629143188">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="123" key="GridCell.Tab.0.bottom/0.0.1360.768@0.0.1360.768" timestamp="1577629143188" />
+    <state width="1360" height="123" key="GridCell.Tab.0.center" timestamp="1577629143186">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="123" key="GridCell.Tab.0.center/0.0.1360.768@0.0.1360.768" timestamp="1577629143186" />
+    <state width="1360" height="123" key="GridCell.Tab.0.left" timestamp="1577629143186">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="123" key="GridCell.Tab.0.left/0.0.1360.768@0.0.1360.768" timestamp="1577629143186" />
+    <state width="1360" height="123" key="GridCell.Tab.0.right" timestamp="1577629143187">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="123" key="GridCell.Tab.0.right/0.0.1360.768@0.0.1360.768" timestamp="1577629143187" />
+    <state width="1360" height="237" key="GridCell.Tab.1.bottom" timestamp="1577541014945">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="237" key="GridCell.Tab.1.bottom/0.0.1360.768@0.0.1360.768" timestamp="1577541014945" />
+    <state width="1360" height="237" key="GridCell.Tab.1.center" timestamp="1577541014943">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="237" key="GridCell.Tab.1.center/0.0.1360.768@0.0.1360.768" timestamp="1577541014943" />
+    <state width="1360" height="237" key="GridCell.Tab.1.left" timestamp="1577541014942">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="237" key="GridCell.Tab.1.left/0.0.1360.768@0.0.1360.768" timestamp="1577541014942" />
+    <state width="1360" height="237" key="GridCell.Tab.1.right" timestamp="1577541014944">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1360" height="237" key="GridCell.Tab.1.right/0.0.1360.768@0.0.1360.768" timestamp="1577541014944" />
+    <state x="100" y="100" width="1160" height="568" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577535397237">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="100" y="100" width="1160" height="568" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1360.768@0.0.1360.768" timestamp="1577535397237" />
+    <state x="373" y="128" width="613" height="512" key="find.popup" timestamp="1577540812480">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="373" y="128" width="613" height="512" key="find.popup/0.0.1360.768@0.0.1360.768" timestamp="1577540812480" />
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577321267531">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1360.768@0.0.1360.768" timestamp="1577321267531" />
+  </component>
+</project>

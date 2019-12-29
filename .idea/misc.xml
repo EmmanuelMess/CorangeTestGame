@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/demos" />
+      <file path="$PROJECT_DIR$/include" />
+      <file path="$PROJECT_DIR$/src" />
+    </sourceRoots>
+    <libraryRoots>
+      <file path="$PROJECT_DIR$/Corange-master" />
+      <file path="$PROJECT_DIR$/libspng-0.5.0" />
+    </libraryRoots>
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/Corange-master/assets_core" />
+      <file path="$PROJECT_DIR$/Corange-master/demos" />
+      <file path="$PROJECT_DIR$/libspng/.github" />
+      <file path="$PROJECT_DIR$/libspng/debian" />
+      <file path="$PROJECT_DIR$/libspng/docs" />
+      <file path="$PROJECT_DIR$/libspng/examples" />
+      <file path="$PROJECT_DIR$/libspng/subprojects" />
+      <file path="$PROJECT_DIR$/libspng/tests" />
+    </excludeRoots>
+  </component>
+</project>

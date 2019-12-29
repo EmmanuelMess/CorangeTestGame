@@ -1,0 +1,10 @@
+platformer
+platformer.exe
+lib/*.*
+*~
+*.o
+stdout.txt
+stderr.txt
+cmake-build-debug/*
+libspng-0.5.0/*
+Corange-master/*
