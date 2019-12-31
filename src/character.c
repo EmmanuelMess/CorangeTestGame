@@ -43,14 +43,18 @@ void character_update(character* c) {
 }
 
 void character_walk_left(character* c) {
-	c->velocity.x = -1;
-	start_animation(c->animation_manager, ANIMATION_WALKING, true);
+	if(!c->covering) {
+		c->velocity.x = -1;
+		start_animation(c->animation_manager, ANIMATION_WALKING, true);
+	}
 	c->facing_left = true;
 }
 
 void character_walk_right(character* c) {
-	c->velocity.x = 1;
-	start_animation(c->animation_manager, ANIMATION_WALKING, true);
+	if(!c->covering) {
+		c->velocity.x = 1;
+		start_animation(c->animation_manager, ANIMATION_WALKING, true);
+	}
 	c->facing_left = false;
 }
 
