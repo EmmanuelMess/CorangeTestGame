@@ -3,6 +3,7 @@
 
 #include <corange.h>
 #include <animation_manager.h>
+#include <turret.h>
 
 #include "level.h"
 #include "character.h"
@@ -47,7 +48,10 @@ static void reset_game() {
   character* main_char = entity_get("main_char");
   main_char->position = vec2_mul( vec2_new(20, 20), TILE_SIZE);
   main_char->velocity = vec2_zero();
-  
+
+	turret* turret_0 = entity_get("turret");
+	turret_0->position = vec2_mul( vec2_new(19, 20), TILE_SIZE);
+
   /* We can create multiple entities using a name format string like printf */
   entities_new("coin_id_%i", COIN_COUNT, coin);
   
@@ -88,11 +92,14 @@ void platformer_init() {
   
   /* Register some handlers for creating and destroying entity types */
   entity_handler(character, character_new, character_delete);
+  entity_handler(turret, turret_new, turret_delete);
   entity_handler(coin, coin_new, coin_delete);
   
   /* Create our main character */
   character* main_char = entity_new("main_char", character);
-  
+
+  turret* turret_0 = entity_new("turret", turret);
+
   /* Add some UI elements */
   ui_button* framerate = ui_elem_new("framerate", ui_button);
   ui_button_move(framerate, vec2_new(10,10));
@@ -314,6 +321,7 @@ static void collision_detection_coins() {
 void platformer_update() {
   
   character* main_char = entity_get("main_char");
+  turret* turret_0 = entity_get("turret");
 
   
   /* Give the player some gravity speed */
@@ -322,8 +330,11 @@ void platformer_update() {
   
   /* Update moves position based on velocity */
   character_update(main_char);
-  
-  /* Two phases of collision detection */
+  turret_update(turret_0);
+
+  /* Collision detection */
+	turret_collision_detection(turret_0, current_level);
+
   collision_detection();
   collision_detection_coins();
   
@@ -351,9 +362,11 @@ void platformer_render() {
   glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
   
   level_render_background(current_level);
-  
-  character_render(entity_get_as("main_char", character), camera_position);
-  
+
+	turrer_render(entity_get_as("turret", turret), camera_position);
+
+	character_render(entity_get_as("main_char", character), camera_position);
+
   /* Get pointers to all the coins for rendering */
   coin* coins[COIN_COUNT];
   int num_coins = 0;

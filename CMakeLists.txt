@@ -13,7 +13,7 @@ link_directories(${CORANGE_DIR})
 link_directories(${LIBSPNG_DIR})
 
 add_executable(TestGame
-    src/character.c src/coin.c src/level.c src/platformer.c src/support/sprite_animation.c include/support/sprite_animation.h src/support/png_support.c include/support/png_support.h src/support/sprite_sheet_support.c include/support/sprite_sheet_support.h src/support/spng_helper.c include/support/spng_helper.h src/animation_manager.c include/animation_manager.h)
+    src/character.c src/coin.c src/level.c src/platformer.c src/support/sprite_animation.c include/support/sprite_animation.h src/support/png_support.c include/support/png_support.h src/support/sprite_sheet_support.c include/support/sprite_sheet_support.h src/support/spng_helper.c include/support/spng_helper.h src/animation_manager.c include/animation_manager.h src/turret.c include/turret.h src/support/extra_math.c include/support/extra_math.h)
 target_link_libraries(TestGame spng)
 target_link_libraries(TestGame corange)
 target_link_libraries(TestGame GL)
