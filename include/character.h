@@ -4,6 +4,7 @@
 #include <corange.h>
 #include "support/sprite_animation.h"
 #include "animation_manager.h"
+#include "health_manager.h"
 
 #define CHARACTER_VELOCITY 5
 
@@ -13,6 +14,7 @@ typedef struct {
 	animation_manager* animation_manager;
 	bool facing_left;
 	bool covering;
+	health * char_health;
 } character;
 
 character* character_new();

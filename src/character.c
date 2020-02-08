@@ -24,6 +24,7 @@ character* character_new() {
 	c->animation_manager = animation_manager_new();
 	c->facing_left = false;
 	c->covering = false;
+	c->char_health = health_new();
 
 	load_animation_manager(c->animation_manager);
 
@@ -31,6 +32,7 @@ character* character_new() {
 }
 
 void character_delete(character* c) {
+	health_delete(c->char_health);
 	animation_manager_delete(c->animation_manager);
 	free(c);
 }
